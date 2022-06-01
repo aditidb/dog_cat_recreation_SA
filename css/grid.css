@@ -1,0 +1,32 @@
+#a {
+  grid-area: a;
+  margin-left: 5rem;
+}
+
+#b {
+  grid-area: b;
+  margin-left: 55rem;
+}
+
+#c {
+  grid-area: c;
+  margin-left: 5rem;
+}
+
+#d {
+  grid-area: d;
+  margin-left: 55rem;
+}
+
+#e {
+  grid-area: e;
+}
+
+#grid {
+  display: grid;
+  grid-template-areas:
+    "a a a a a a a a b b"
+    "e e e e e e e e e e "
+    "c c c c c c c c d d";
+  grid-row-gap: 1rem;
+}
